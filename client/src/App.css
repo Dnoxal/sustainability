@@ -1,0 +1,106 @@
+/* ========== Global Styling ========== */
+
+body {
+  font-family: 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: linear-gradient(135deg, #e6f7ec, #b6e3c8);
+  margin: 0;
+  padding: 0;
+  color: #1f2937;
+}
+
+h1 {
+  text-align: center;
+  color: #1a6c42;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* ========== Form Styling ========== */
+
+form {
+  background: #f4fdf6;
+  border: 1px solid #c5e8d2;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+form h3 {
+  margin-bottom: 10px;
+  color: #166534;
+}
+
+form input,
+form select,
+form button {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+form button {
+  background-color: #1a6c42;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #155836;
+}
+
+/* ========== Chart / Leaderboard / Table ========== */
+
+section {
+  margin-top: 40px;
+}
+
+.leaderboard {
+  margin-top: 20px;
+}
+
+.leaderboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.leaderboard li {
+  background: #e8f5e9;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
+
+th {
+  background: #d1fae5;
+  color: #065f46;
+  padding: 8px;
+}
+
+td {
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:hover {
+  background-color: #f0fdf4;
+}
