@@ -7,13 +7,6 @@
     }
   ],
   "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "server/main.py"
-    }
-  ],
-  "env": {
-    "MONGO_URI": "@mongo_uri",
-    "DB_NAME": "@db_name"
-  }
+    { "src": "/api/(.*)", "dest": "server/main.py" }
+  ]
 }
