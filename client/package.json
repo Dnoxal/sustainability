@@ -18,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "vercel"
   },
   "eslintConfig": {
     "extends": [
@@ -43,4 +44,6 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.14"
   }
+  
 }
+

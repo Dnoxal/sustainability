@@ -1,7 +1,7 @@
 export default function Leaderboard({ data }) {
   return (
     <div>
-      <h3>Top Savers (Lowest CO₂ Impact)</h3>
+      <h3>Top Emission Savers (Lowest CO₂ Impact)</h3>
       <ul>
         {data?.leaderboard?.map((user, i) => (
           <li key={i}>
