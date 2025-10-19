@@ -4,7 +4,7 @@ from server.models import Activity
 from server.database import activities
 from server.calculators import calculate_impact
 
-router = APIRouter(prefix="/api/activities", tags=["activities"])
+router = APIRouter(prefix="/activities", tags=["activities"])
 
 # --- 1️⃣ POST: log new activity ---
 @router.post("/")
